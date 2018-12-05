@@ -1,0 +1,24 @@
+
+"scripts": {
+  "build":"webpack"
+},
+
+这样配置以后 在终端可以用 build 命令代替 webpack
+
+npm run build
+
+
+/*************************************/
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --entry ./src/js/show.js --output-filenaem ./dist/bundle.js"
+  },
+"start": "webpack-dev-server --entry ./src/js/show.js --output-filenaem ./dist/bundle.js"
+配置服务器
+指定打包的程序 --entry ./src/js/show.js
+指定打包后的文件  --output-filename ./dist/bundle.js
+
+#先编译
+npm run build
+#启动  然后在本地服务器上启动
+npm start

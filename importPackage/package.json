@@ -1,0 +1,22 @@
+{
+  "name": "wpk-test",
+  "version": "1.0.0",
+  "description": "css-loader style-loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "this is a webpack studying about loader"
+  },
+  "keywords": [
+    "loader"
+  ],
+  "author": "William",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^1.0.1",
+    "style-loader": "^0.23.1"
+  },
+  "devDependencies": {
+    "jquery": "^3.3.1",
+    "less": "^3.8.1"
+  }
+}

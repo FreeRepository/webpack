@@ -1,0 +1,3 @@
+
+#webpack.config.js 配置完后就可以直接用 webpack 打包了
+webpack

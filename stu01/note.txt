@@ -1,0 +1,2 @@
+#打包一个.js文件
+webpack show.js -o bundle.js

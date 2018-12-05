@@ -1,0 +1,1 @@
+document.write('今天天气很好!');
